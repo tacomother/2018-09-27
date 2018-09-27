@@ -1,0 +1,311 @@
+body {
+  background: #151515;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  animation: 5s position ease-out infinite;
+}
+
+.firework {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  left: 50%;
+  offset-distance: 0;
+  z-index: -1;
+}
+.firework:nth-of-type(0) {
+  offset-path: path("M 0, 0 q 0, -43, -294, 80 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(1) {
+  offset-path: path("M 0, 0 q 0, -46, 297, 90 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(2) {
+  offset-path: path("M 0, 0 q 0, -48, -202, -40 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(3) {
+  offset-path: path("M 0, 0 q 0, -48, 64, -44 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(4) {
+  offset-path: path("M 0, 0 q 0, -7, 119, -26 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(5) {
+  offset-path: path("M 0, 0 q 0, -17, -5, 213 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(6) {
+  offset-path: path("M 0, 0 q 0, -20, 231, -261 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(7) {
+  offset-path: path("M 0, 0 q 0, -1, 174, -197 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(8) {
+  offset-path: path("M 0, 0 q 0, -22, 99, -49 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(9) {
+  offset-path: path("M 0, 0 q 0, -22, 78, -211 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(10) {
+  offset-path: path("M 0, 0 q 0, -10, -114, 230 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(11) {
+  offset-path: path("M 0, 0 q 0, -31, 105, 210 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(12) {
+  offset-path: path("M 0, 0 q 0, -1, 29, -223 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(13) {
+  offset-path: path("M 0, 0 q 0, -30, 202, -254 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(14) {
+  offset-path: path("M 0, 0 q 0, -43, 93, 265 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(15) {
+  offset-path: path("M 0, 0 q 0, -17, -217, 262 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(16) {
+  offset-path: path("M 0, 0 q 0, -45, 91, -9 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(17) {
+  offset-path: path("M 0, 0 q 0, -33, 7, -151 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(18) {
+  offset-path: path("M 0, 0 q 0, -26, 189, -169 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(19) {
+  offset-path: path("M 0, 0 q 0, -33, -269, 283 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(20) {
+  offset-path: path("M 0, 0 q 0, -1, -230, -98 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(21) {
+  offset-path: path("M 0, 0 q 0, -27, -12, -291 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(22) {
+  offset-path: path("M 0, 0 q 0, -32, -38, 58 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(23) {
+  offset-path: path("M 0, 0 q 0, -5, -71, -274 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(24) {
+  offset-path: path("M 0, 0 q 0, -5, -94, 229 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(25) {
+  offset-path: path("M 0, 0 q 0, -11, 161, 94 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(26) {
+  offset-path: path("M 0, 0 q 0, -36, -25, 125 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(27) {
+  offset-path: path("M 0, 0 q 0, -21, 64, 36 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(28) {
+  offset-path: path("M 0, 0 q 0, -16, -157, -54 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(29) {
+  offset-path: path("M 0, 0 q 0, -4, -101, -197 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(30) {
+  offset-path: path("M 0, 0 q 0, -3, -41, 14 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(31) {
+  offset-path: path("M 0, 0 q 0, -27, 147, 203 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(32) {
+  offset-path: path("M 0, 0 q 0, -32, -117, 50 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(33) {
+  offset-path: path("M 0, 0 q 0, -36, -220, 114 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(34) {
+  offset-path: path("M 0, 0 q 0, -1, -16, 169 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(35) {
+  offset-path: path("M 0, 0 q 0, -12, -50, 245 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(36) {
+  offset-path: path("M 0, 0 q 0, -11, 99, 124 ");
+  animation: 1s scatter ease-out infinite;
+  background: #6bffc7;
+}
+.firework:nth-of-type(37) {
+  offset-path: path("M 0, 0 q 0, -25, 113, 298 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(38) {
+  offset-path: path("M 0, 0 q 0, -46, -260, -300 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(39) {
+  offset-path: path("M 0, 0 q 0, -47, -176, 0 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(40) {
+  offset-path: path("M 0, 0 q 0, -45, -202, 64 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(41) {
+  offset-path: path("M 0, 0 q 0, -46, 231, 243 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(42) {
+  offset-path: path("M 0, 0 q 0, -23, 267, -54 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(43) {
+  offset-path: path("M 0, 0 q 0, -9, 222, -175 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(44) {
+  offset-path: path("M 0, 0 q 0, -12, -4, 285 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(45) {
+  offset-path: path("M 0, 0 q 0, -15, 74, 83 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(46) {
+  offset-path: path("M 0, 0 q 0, -37, -225, -194 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(47) {
+  offset-path: path("M 0, 0 q 0, -36, 274, -265 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(48) {
+  offset-path: path("M 0, 0 q 0, -15, -51, -6 ");
+  animation: 1s scatter ease-out infinite;
+  background: #e8cdff;
+}
+.firework:nth-of-type(49) {
+  offset-path: path("M 0, 0 q 0, -28, -204, -242 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+.firework:nth-of-type(50) {
+  offset-path: path("M 0, 0 q 0, -11, 138, -128 ");
+  animation: 1s scatter ease-out infinite;
+  background: #67e1fe;
+}
+
+@keyframes scatter {
+  0% {
+    offset-distance: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    offset-distance: 100%;
+    opacity: 0;
+  }
+}
+@keyframes position {
+  0%, 19.9% {
+    transform: translate(10vw, 40vh);
+  }
+  20%, 39.9% {
+    transform: translate(40vw, 30vh);
+  }
+  40%, 59.9% {
+    transform: translate(20vw, 90vh);
+  }
+  60%, 79.9% {
+    transform: translate(30vw, 20vh);
+  }
+  80%, 99.9% {
+    transform: translate(80vw, 50vh);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

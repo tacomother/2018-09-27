@@ -1,0 +1,264 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: #000;
+}
+
+.trackMercury {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  transition: all 0.5s;
+  animation: rotate360 0.48s linear infinite;
+  z-index: 8;
+}
+
+.trackMercury:hover {
+  border: 1px solid white;
+}
+
+.trackVenus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -62.5px 0 0 -62.5px;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  transition: all 0.5s;
+  animation: rotate360 1.24s linear infinite;
+  z-index: 7;
+}
+
+.trackVenus:hover {
+  border: 1px solid white;
+}
+
+.trackEarth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -79px 0 0 -79px;
+  width: 158px;
+  height: 158px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  transition: all 0.5s;
+  animation: rotate360 2s linear infinite;
+  z-index: 6;
+}
+
+.trackEarth:hover {
+  border: 1px solid white;
+}
+
+.trackMars {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -95px 0 0 -95px;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  transition: all 0.5s;
+  animation: rotate360 3.76s linear infinite;
+  z-index: 5;
+}
+
+.trackMars:hover {
+  border: 1px solid white;
+}
+
+.trackJupiter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -137.5px 0 0 -137.5px;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  transition: all 0.5s;
+  animation: rotate360 23.72s linear infinite;
+  z-index: 4;
+}
+
+.trackJupiter:hover {
+  border: 1px solid white;
+}
+
+.trackSaturn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -205px 0 0 -205px;
+  width: 410px;
+  height: 410px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  transition: all 0.5s;
+  animation: rotate360 58.92s linear infinite;
+  z-index: 3;
+}
+
+.trackSaturn:hover {
+  border: 1px solid white;
+}
+
+.trackUranus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -255px 0 0 -255px;
+  width: 510px;
+  height: 510px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  transition: all 0.5s;
+  animation: rotate360 168.02s linear infinite;
+  z-index: 2;
+}
+
+.trackUranus:hover {
+  border: 1px solid white;
+}
+
+.trackNeptune {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -290px 0 0 -290px;
+  width: 580px;
+  height: 580px;
+  border-radius: 50%;
+  border: 1px solid #161616;
+  transition: all 0.5s;
+  animation: rotate360 329.6s linear infinite;
+  z-index: 1;
+}
+
+.trackNeptune:hover {
+  border: 1px solid white;
+}
+
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: gold;
+}
+
+.mercury {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -3px 0 0 -3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c2b7a4;
+}
+
+.venus {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -5px 0 0 -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ede186;
+}
+
+.earth {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #81b3d4;
+}
+
+.mars {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -4px 0 0 -4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d66523;
+}
+
+.jupiter {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -32.5px 0 0 -32.5px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #ea9e6a;
+}
+
+.saturn {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -27.5px 0 0 -27.5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #e6d48b;
+}
+
+.uranus {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -15px 0 0 -15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #82bdcb;
+}
+
+.neptune {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -14px 0 0 -14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #5b7dad;
+}
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

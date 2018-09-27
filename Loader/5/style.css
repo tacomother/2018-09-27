@@ -1,0 +1,119 @@
+/**
+ * Document defaults
+ */
+body {
+  text-align: center;
+  background-color: #eee;
+
+  overflow: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* The loader container */
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 200px;
+  height: 200px;
+
+  margin-top: -100px;
+  margin-left: -100px;
+
+  perspective: 400px;
+}
+
+/* The dot */
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+
+  width: 0;
+  height: 0;
+
+  border: 10px solid #1e3f57;
+  border-radius: 999px;
+
+  margin-top: -10px;
+  margin-left: -10px;
+
+  opacity: 0;
+  transform-origin: 50% 50%;
+  transform: rotateZ(-45deg) translateY(-100px) translateX(100px);
+
+  animation: dot1 3000ms cubic-bezier(0.56, 0.18, 0.92, 0.69) infinite;
+}
+
+.dot:nth-child(2) {
+  z-index: 11;
+  animation-name: dot1;
+  animation-delay: 1000ms;
+  border-color: #447891;
+}
+
+.dot:nth-child(3) {
+  z-index: 12;
+  animation-name: dot1;
+  animation-delay: 2000ms;
+  border-color: #6bb2cd;
+}
+
+@keyframes dot1 {
+  0% {
+    opacity: 0;
+    z-index: 10;
+    transform: rotateZ(-45deg) translateY(-100px) translateX(100px);
+  }
+  50% {
+    opacity: 1;
+    z-index: 10;
+    transform: rotateZ(-45deg) translateY(0) translateX(0);
+  }
+  51% {
+    opacity: 1;
+    z-index: 10;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-width: 10px;
+    transform: rotateX(70deg);
+    animation-timing-function: cubic-bezier(0.12, 0.41, 0.63, 0.99);
+  }
+  100% {
+    opacity: 0;
+    z-index: 1;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-width: 200px;
+    transform: rotateX(70deg);
+    animation-timing-function: cubic-bezier(0.12, 0.41, 0.63, 0.99);
+  }
+}
+
+@keyframes dot2 {
+  0% {
+    transform: rotateZ(-45deg) translateY(-100px) translateX(100px);
+  }
+  50% {
+    transform: rotateZ(-45deg) translateY(0) translateX(0);
+  }
+  51% {
+    margin-top: -10px;
+    margin-left: -10px;
+    border-width: 10px;
+    transform: rotateX(60deg);
+  }
+  100% {
+    margin-top: -800px;
+    margin-left: -800px;
+    border-width: 800px;
+    transform: rotateX(60deg);
+  }
+}
